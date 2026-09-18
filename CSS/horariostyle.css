@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bcbcbc;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 0.1s ease-out;
+}
+
+.button:hover {
+    background-color: #848484;
+    transform: scale(1.1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    height: 2em;
+    word-wrap: break-word;
+}
+
+.zoom {
+    transition: transform 0.1s ease-out;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 60%;
+}
+
+.progracolor {
+    background-color: #f9dbdb;
+}
+
+.tutoria {
+    background-color: #76fdf7;
+}
+
+.sistema {
+    background-color: #feff99;
+}
+
+.web {
+    background-color: #84cbeb;
+}
+
+.bbdd {
+    background-color: #f1ceec;
+}
+
+.erp {
+    background-color: #ccff9a;
+}
+
+.nada {
+    background-color: #bdbdbd;
+}
+
+.patio {
+    background-color: coral;
+}
+
+.horas {
+    background-color: yellow;
+}
+
+.semanas {
+    background-color: dimgray;
+    color: white;
+}
