@@ -5,20 +5,32 @@
     list-style: none;
 }
 
-header h1 {
-    margin: 1em;
-    display: flex;
-    justify-content: center;
+.logo {
+    width: 6em;
+    height: auto;
+    float: right;
 }
 
-ul {
-    margin: 2em;
+.cabecera {
     display: flex;
-    justify-content: center;
+    align-items: center;            
+    justify-content: space-between; 
+    position: relative;             
+    padding: 10px 20px;             
+    background-color: #d49a1d;     
 }
 
-li {
-    padding: 1em;
+.titulo-centrado {
+    position: absolute;
+    left: 50%;                      
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+header {
+    background-color: goldenrod;
+    padding: 1.5em;
+    height: 6em;
 }
 
 .button {
