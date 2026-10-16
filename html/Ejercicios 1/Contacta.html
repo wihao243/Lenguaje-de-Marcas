@@ -16,23 +16,30 @@
 
     <h1>Contacto</h1>
 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde possimus asperiores tempore repellat ratione, soluta fugit, quisquam laboriosam corporis aperiam mollitia consequuntur corrupti dolor eaque pariatur vero assumenda quam earum.</p>
+
     <form action="#" method="post">
         <div>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            <input class="texto" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
         </div>
-
+        <br>
         <div>
             <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+            <input class="texto" type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
         </div>
-
+        <br>
         <div>
             <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <br>
+            <textarea class="texto" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
         </div>
-
-        <button type="submit">Enviar</button>
+        <br>
+        <input type="checkbox" id="checkbox" name="opcional1" value="valor1" required>
+        <label for="checkbox">Acepta las condiciones.</label>
+        <br>
+        <br>
+        <button class="button" type="submit">Enviar</button>
     </form>
 
 </body>

@@ -18,3 +18,18 @@
     background-color: #848484;
     transform: scale(1.1);
 }
+
+.texto {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 0.1s ease-out;
+}
