@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, .grid {
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 3fr 1fr 8fr 2fr;
+}
+
+.header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    background-color: red;
+}
+
+.nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    background-color: blue;
+}
+
+.main {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    background-color: green;
+}
+
+.aside {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: purple;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    background-color: gray;
+}
