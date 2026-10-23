@@ -1,0 +1,297 @@
+/* Reseteo básico y tipografía */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.caja {
+    background: #ffffff;
+    max-width: 960px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.caja-esquina {
+    border: 1.5px solid red;
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.tamano-titulo {
+    font-size: 18px;
+}
+
+.caja-main {
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-media {
+    flex: 0 0 240px;
+    gap: 16px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160px;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: max-width 0.2s ease, transform 0.2s ease;
+}
+
+.product-img:hover {
+    max-width: 110%;
+    height: auto;
+}
+
+.intel {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #001489;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 3px;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.intel-logo {
+    font-size: 11px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.stars {
+    color: red;
+}
+
+.column-specs {
+    flex: 260px;
+    gap: 12px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.spec-label {
+    font-size: 13px;
+    color: #555;
+}
+
+.spec-value {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+}
+
+.column-buy {
+    flex: 0 0 240px;
+    gap: 20px;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.discount-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge-discount {
+    background-color: #d32f2f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #666;
+    font-size: 15px;
+}
+
+.current-price {
+    font-size: 32px;
+    font-weight: 800;
+    color: #d32f2f;
+    line-height: 1.1;
+}
+
+.link-subtext {
+    font-size: 13px;
+    color: #444;
+    text-decoration: underline;
+    margin-top: 2px;
+}
+
+/* Disponibilidad */
+.stock-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.stock-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.green-dot {
+    color: #2e7d32;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.icon-store {
+    color: #8d4b00;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.text-green {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.stock-title {
+    font-weight: bold;
+    color: #222;
+}
+
+.stock-sub {
+    color: #555;
+    font-size: 12px;
+}
+
+.link-store-select {
+    display: inline-block;
+    margin-top: 2px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Pie de la tarjeta */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.compare-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+
+.compare-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-cart {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-cart:hover {
+    background-color: #222222;
+}
+
+.cart-icon,
+.heart-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.btn-wishlist {
+    background-color: #ffffff;
+    border: 1px solid #111111;
+    padding: 10px 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-wishlist:hover {
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Producto - Flexbox</title>
+    <link rel="stylesheet" href="../../CSS/Ejercicios 1/botton.css">
+    <link rel="stylesheet" href="../../CSS/Flex/flex.css">
+</head>
+
+<body>
+    <div class="volver">
+        <a class="button" href="../../index.html"><p>Volver</p></a>
+    </div>
+
+    <article class="caja">
+        <header>
+            <span class="caja-esquina">Renove -100€</span>
+            <span class="caja-esquina">Top venta</span>
+        </header>
+        <h1 class="tamano-titulo">
+            Portátil - Lenovo IdeaPad Slim 3 15IPH11 Copilot+ PC, 15.3" WUXGA, Intel® Core™ Ultra 5 322, 46 TOPS, 16GB
+            RAM, 512GB SSD, W11H, Sin cargador
+        </h1>
+        <div class="caja-main">
+            <div class="column column-media">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400&q=80"
+                        alt="Lenovo IdeaPad Slim 3" class="product-img">
+                    <div class="intel">
+                        <span>Series 3</span>
+                        <span class="intel-logo">intel</span>
+                        <span>CORE</span>
+                        <span>ULTRA 5</span>
+                    </div>
+                </div>
+
+                <div class="rating-row">
+                    <div class="stars">★★★★★</div>
+                    <span>6</span>
+                    <span>ⓘ</span>
+                </div>
+            </div>
+            <div class="column column-specs">
+                <div class="group">
+                    <span class="spec-label">Procesador</span>
+                    <span class="spec-value">Intel® Core™ Ultra 5 322</span>
+                </div>
+                <div class="group">
+                    <span class="spec-label">Tamaño de la memoria RAM</span>
+                    <span class="spec-value">16 GB</span>
+                </div>
+                <div class="group">
+                    <span class="spec-label">Capacidad del disco duro 1</span>
+                    <span class="spec-value">512 GB</span>
+                </div>
+                <div class="group">
+                    <span class="spec-label">Tarjeta gráfica</span>
+                    <span class="spec-value">HD Graphics</span>
+                </div>
+            </div>
+            <div class="column column-buy">
+
+                <div class="price-box">
+                    <div class="discount-row">
+                        <span class="badge-discount">-11%</span>
+                        <span class="old-price">849,– €</span>
+                    </div>
+                    <div class="current-price">749,– €</div>
+                    <a href="#" class="link-subtext">IVA incl. Con envío gratis</a>
+                    <a href="#" class="link-subtext">Simula tu financiación*</a>
+                </div>
+
+                <div class="stock-info">
+                    <div class="stock-item">
+                        <span class="dot green-dot">●</span>
+                        <div>
+                            <div class="stock-title text-green">Disponible online</div>
+                            <div class="stock-sub">Entrega 26/10/2026</div>
+                        </div>
+                    </div>
+
+                    <div class="stock-item">
+                        <span class="icon-store">⌂</span>
+                        <div>
+                            <div class="stock-title">Recogida en tienda</div>
+                            <div class="stock-sub">Consultar disponibilidad</div>
+                            <a href="#" class="link-store-select">Seleccionar tienda</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <footer class="card-footer">
+            <label class="compare-label">
+                <input type="checkbox" class="compare-checkbox">
+                <span>Comparar</span>
+            </label>
+
+            <div class="actions">
+                <button type="button" class="btn-cart">
+                    <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    Añadir al carrito
+                </button>
+
+                <button type="button" class="btn-wishlist" aria-label="Añadir a favoritos">
+                    <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </footer>
+
+    </article>
+
+</body>
+
+</html>
